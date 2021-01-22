@@ -1,0 +1,19 @@
+11.
+
+
+KasperSeglem_015_Labs >> git add .
+KasperSeglem_015_Labs >> git commit -m "3308 First Commit"
+[main 32e5e93] 3308 First Commit
+ 1 file changed, 1 insertion(+)
+
+ create mode 100644 test.txt
+KasperSeglem_015_Labs >> git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 287 bytes | 287.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/CSCI-3308-CU-Boulder/KasperSeglem_015_Labs.git
+   671c7ba..32e5e93  main -> main
+KasperSeglem_015_Labs >> 

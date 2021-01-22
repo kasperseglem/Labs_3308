@@ -1,0 +1,37 @@
+root@e3cad3168687:/# psql -h localhost -U postgres
+psql (13.1 (Debian 13.1-1.pgdg100+1))
+Type "help" for help.
+
+postgres=#  create database practice;
+CREATE DATABASE
+postgres=# \c practice;
+You are now connected to database "practice" as user "postgres".
+practice=# create table if not exists store(id serial, sname varchar(40) not null, qty integer not null, price float not null, primary key(id));
+CREATE TABLE
+practice=# insert into store (sname, qty, price) values ('apple', 10, 1),('pear', 5, 2),('banana', 10, 1.5),('lemon', 100, 0.1),('orange', 50, 0.2);
+INSERT 0 5
+practice=# select * from store;
+ id | sname  | qty | price 
+----+--------+-----+-------
+  1 | apple  |  10 |     1
+  2 | pear   |   5 |     2
+  3 | banana |  10 |   1.5
+  4 | lemon  | 100 |   0.1
+  5 | orange |  50 |   0.2
+(5 rows)
+
+practice=# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
